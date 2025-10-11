@@ -80,26 +80,29 @@
       ],
       "type": "prompt"
     },
-{
-  "alignment": "left",
-  "newline": true,
-  "segments": [
     {
-      "foreground": "#96E072",
-      "style": "plain",
-      "template": "({{ .Venv }}) ",
-      "type": "python"
-    },
-    {
-      "foreground": "#7a7a7a",
-      "style": "plain",
-      "template": "> ",
-      "type": "text"
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#96E072",
+          "style": "plain",
+          "type": "python",
+          "properties": {
+            "home_enabled": true,
+            "display_mode": "environment"
+          },
+          "template": "{{ if .Venv }}({{ .Venv }}) {{ end }}"
+        },
+        {
+          "foreground": "#7a7a7a",
+          "style": "plain",
+          "template": "> ",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
     }
-  ],
-  "type": "prompt"
-}
-    
   ],
   "console_title_template": "{{if .Root}}root :: {{end}}{{.Shell}} :: {{.Folder}}",
   "final_space": true,
