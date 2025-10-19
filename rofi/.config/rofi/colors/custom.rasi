@@ -1,0 +1,26 @@
+* {
+    background:     #1a1420CC;
+    background-alt: #2d2135CC;
+    foreground:     #ffb86c;
+    selected:       #ff4e6b;
+    active:         #ff8866;
+    urgent:         #7d5a7f;
+    
+    color0:  #1a1420;
+    color1:  #ff4e6b;
+    color2:  #ff6b9d;
+    color3:  #ff8866;
+    color4:  #ff8866;
+    color5:  #7d5a7f;
+    color6:  #ffb86c;
+    color7:  #ffb86c;
+    color8:  #2d2135;
+    color9:  #ff4e6b;
+    color10: #ff6b9d;
+    color11: #ff8866;
+    color12: #ffb86c;
+    color13: #7d5a7f;
+    color14: #ffd699;
+    color15: #ffe4b3;
+}
+
