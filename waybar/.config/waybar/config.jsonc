@@ -32,6 +32,7 @@
         //"keyboard-state",
         // "hyprland/language",
         "battery",
+        "custom/notification",
         "tray",
         "custom/power"
     ]
