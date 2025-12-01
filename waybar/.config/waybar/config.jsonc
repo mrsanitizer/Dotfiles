@@ -14,7 +14,8 @@
         "hyprland/workspaces",
         "cpu",
         "memory",
-        "temperature"
+        "temperature",
+	"custom/privacydots"
     ],
     "modules-center": [
         // "hyprland/window"
@@ -28,7 +29,7 @@
         "power-profiles-daemon",
         //"cpu",
         //"memory",
-        "backlight",
+        //"backlight",
         //"keyboard-state",
         // "hyprland/language",
         "battery",
