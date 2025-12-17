@@ -22,20 +22,16 @@
         "clock"
     ],
     "modules-right": [
-        // "mpd",
-        //"idle_inhibitor",
+        "mpd",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
-        //"cpu",
-        //"memory",
         //"backlight",
-        //"keyboard-state",
         // "hyprland/language",
         "battery",
         "custom/notification",
-        "tray",
-        "custom/power"
+        "custom/power",
+        "tray"
     ]
 }
 

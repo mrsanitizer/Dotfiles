@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- CONFIGURATION ---
-volume_step=5        # Change per keypress for volume
+volume_step=2        # Change per keypress for volume
 brightness_step=5    # Change per keypress for brightness
 min_brightness=5     # Minimum brightness percentage (prevent black screen)
 timeout=1000          # Notification popup milliseconds
