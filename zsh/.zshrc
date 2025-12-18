@@ -115,7 +115,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias prime-run='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only'
 alias activate_env='source ~/python_envs/ml_use_pip_here/bin/activate'
-alias reload="sudo reflector @/etc/xdg/reflector/reflector.conf"
+alias reload="sudo systemctl start reflector.service"
 
 alias settings="cd ~/.config/hypr && nvim ./" #for notification swaync
 

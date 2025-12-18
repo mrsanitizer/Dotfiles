@@ -74,6 +74,7 @@ window#waybar.hidden {
 #mode,
 #idle_inhibitor,
 #scratchpad,
+#bluetooth,
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
@@ -322,3 +323,11 @@ label:focus {
   font-size: 12px;
   letter-spacing: 3px;
 }
+
+#bluetooth {
+    background-color: #f1c40f;
+    color: #000000;
+}
+
+
+

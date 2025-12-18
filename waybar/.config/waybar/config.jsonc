@@ -22,8 +22,9 @@
         "clock"
     ],
     "modules-right": [
-        "mpd",
+        // "mpd",
         "pulseaudio",
+        "bluetooth",
         "network",
         "power-profiles-daemon",
         //"backlight",
