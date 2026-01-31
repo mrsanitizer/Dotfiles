@@ -82,11 +82,6 @@
                     "command": "swaync-client -d",
                     "type":"toggle"
                 },
-
-                {
-                    "label": "󰀟",
-                    "command": "gnome-network-displays"
-                },
                 {
                     "label": "",
                     "command": "kitty zsh -i -c 'settings'"
