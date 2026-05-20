@@ -1,12 +1,12 @@
-# 🧩 Arch Linux Dotfiles — mrsanitizer
+# Arch Linux Dotfiles — mrsanitizer
 
 My personal Arch Linux dotfiles for a clean, minimal, and fast Wayland setup using **Hyprland**, **Waybar**, **Kitty**, **Zsh**, and more — all managed with **GNU Stow** for easy symlinking.
 
-> **💡 Powered by:** Hyprland (Wayland) • PipeWire • NVIDIA OPEN DKMS • SDDM
+> ** Powered by:** Hyprland (Wayland) • PipeWire • NVIDIA OPEN DKMS • SDDM
 
 ---
 
-## 🎨 Showcase
+## Showcase
 
 - **WM**: Hyprland (Wayland compositor)
 - **Shell**: Zsh with Oh My Zsh + Powerlevel10k
@@ -21,7 +21,7 @@ My personal Arch Linux dotfiles for a clean, minimal, and fast Wayland setup usi
 
 ---
 
-## 📦 What's Inside
+## What's Inside
 
 | Path / Config | Description |
 |----------------|-------------|
@@ -44,7 +44,7 @@ My personal Arch Linux dotfiles for a clean, minimal, and fast Wayland setup usi
 
 ---
 
-## 🧰 Installation
+## Installation
 
 ### Prerequisites
 
@@ -125,7 +125,7 @@ sudo ./install.sh
 
 ---
 
-## 🔗 Dotfiles Setup (GNU Stow)
+## Dotfiles Setup (GNU Stow)
 
 ### Clone the Repository
 
@@ -166,7 +166,7 @@ p10k configure
 
 ---
 
-## 🎨 Theming Guide
+## Theming Guide
 
 ### Dolphin (File Manager)
 1. Apply **Sweet Nova** via **System Settings → Appearance → Application Style**
@@ -191,7 +191,7 @@ Colors and styling are in `.config/waybar/style.css` — edit to match your them
 
 ---
 
-## ⚡ Post-Installation
+## Post-Installation
 
 ### Enable Services
 ```bash
@@ -210,7 +210,7 @@ chsh -s $(which zsh)
 
 ---
 
-## 🛠️ Configuration Tips
+## Configuration Tips
 
 - **Hyprland keybinds**: Edit `~/.config/hypr/hyprland.conf`
 - **Waybar modules**: Customize in `~/.config/waybar/config`
@@ -219,13 +219,13 @@ chsh -s $(which zsh)
 - **In General**: Just copy the configs I have all of them are relative to my home directory except the grub.
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > Add your screenshots here to show off your setup!
 
 ---
 
-## 📝 Credits & Resources
+## Credits & Resources
 
 - [Hyprland](https://hyprland.org/) — Wayland compositor
 - [adi1090x Rofi Themes](https://github.com/adi1090x/rofi)
@@ -236,10 +236,10 @@ chsh -s $(which zsh)
 
 ---
 
-## 📄 License
+## License
 
 MIT License — feel free to use and modify!
 
 ---
 
-**Enjoy your rice! 🍚✨**
+**Enjoy your rice!**
